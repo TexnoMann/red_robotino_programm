@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/files/RobotinoProgram/RadioControl/src/GPIOControl/PPMEncoder.cpp
+PPMEncoder.h
+/media/files/RobotinoProgram/RadioControl/src/GPIOControl/PPMEncoder.h
+
+/media/files/RobotinoProgram/RadioControl/src/GPIOControl/PPMEncoder.h
+rec/robotino/api2/AnalogInput.h
+/media/files/RobotinoProgram/RadioControl/src/GPIOControl/rec/robotino/api2/AnalogInput.h
+
+/media/files/RobotinoProgram/RadioControl/src/main.cpp
+rec/robotino/api2/Com.h
+-
+GPIOControl/PPMEncoder.h
+/media/files/RobotinoProgram/RadioControl/src/GPIOControl/PPMEncoder.h
+iostream
+-
+
