@@ -1,14 +1,11 @@
 #include <ctime>
 #include <iostream>
 #include <stdio.h>
-#include <termios.h>
-#include <unistd.h>
 
 #include <rec/robotino/api2/Com.h>
 #include <rec/robotino/api2/Bumper.h>
 #include <rec/robotino/api2/OmniDrive.h>
 #include <rec/robotino/api2/DistanceSensorArray.h>
-// Add the header file for radio function
 
 using namespace rec::robotino::api2;
 

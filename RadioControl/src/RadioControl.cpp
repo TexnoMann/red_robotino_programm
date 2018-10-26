@@ -1,4 +1,4 @@
-#include "../include/KeyboardVelocityControl.h"
+#include "../include/RadioControl.h"
 
 
 #define SOME_TIME 0.05
@@ -20,13 +20,7 @@ void MovingTowards(double x_vel, double y_vel, double angle_vel, double time = 5
 
 
 int main(int argc, char **argv){
-    struct termios oldt,
-    newt;
-    int ch1,ch2;
-    tcgetattr( STDIN_FILENO, &oldt );
-    newt = oldt;
-    newt.c_lflag &= ~( ICANON | ECHO );
-    tcsetattr( STDIN_FILENO, TCSANOW, &newt );
+
     double k = 0.1;
     /*connect to robot with IP which was specified as program's command line
     argument or to 192.168.2.100 if no argument was provided*/
@@ -54,41 +48,7 @@ int main(int argc, char **argv){
     bumper.setComId(com.id());
     dist_sens.setComId(com.id());
     double forw, turn, ang;
-    while(true)
-{               ch1 = getchar();
-                ch2 = getchar();
-                forw = 0;
-                turn = 0;
-                ang = 0;
-                std::cout <<ch1 << " " <<ch2;
-                if (ch1 == 'w' || ch2 == 'w'){
-                    forw=k;
-                }
-                if (ch1 == 'd' || ch2 == 'd'){
-                    turn=-k;
-                }
-                if (ch1 == 's' || ch2 == 's'){
-                    forw=-k;
-                }
-                if (ch1 == 'a' || ch2 == 'a'){
-                    turn=k;
-                }
-                if (ch1 == 'e' || ch2 == 'e'){
-                    ang=-k;
-                }
-                if (ch1 == 'q' || ch2 == 'q'){
-                    ang=k;
-                }
-                if ((ch1 == 'r' || ch2 == 'r') && k < 1) {
-                    k+=0.1;
-                }
-                if ((ch1 == 'f' || ch2 == 'f') && k > 0) {
-                    k-=0.1;
-                }
-                MovingTowards(forw, turn, ang);
-    
-}
-    tcsetattr( STDIN_FILENO, TCSANOW, &oldt );
+    while(true){MovingTowards(/*add value from radio function*/);}
     com.disconnectFromServer();
     return 0;
 }
