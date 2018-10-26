@@ -1,0 +1,55 @@
+The system is: Linux - 4.15.0-38-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa6b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa6b4.dir/build.make CMakeFiles/cmTC_aa6b4.dir/build
+make[1]: Entering directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa6b4.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_aa6b4.dir/testCCompiler.c.o   -c /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_aa6b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa6b4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_aa6b4.dir/testCCompiler.c.o  -o cmTC_aa6b4 
+make[1]: Leaving directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84fe5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84fe5.dir/build.make CMakeFiles/cmTC_84fe5.dir/build
+make[1]: Entering directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84fe5.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_84fe5.dir/testCXXCompiler.cxx.o -c /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_84fe5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84fe5.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_84fe5.dir/testCXXCompiler.cxx.o  -o cmTC_84fe5 
+make[1]: Leaving directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
+
+
