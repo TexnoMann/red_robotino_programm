@@ -6,6 +6,7 @@
 #include <rec/robotino/api2/Bumper.h>
 #include <rec/robotino/api2/OmniDrive.h>
 #include <rec/robotino/api2/DistanceSensorArray.h>
+#include "../src/SerialControl/SERIALRead.h"
 
 using namespace rec::robotino::api2;
 

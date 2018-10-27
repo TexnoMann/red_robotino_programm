@@ -1,3 +1,0 @@
-/media/files/RobotinoProgram/RadioControl/CMakeFiles/rebuild_cache.dir
-/media/files/RobotinoProgram/RadioControl/CMakeFiles/RadioControl.dir
-/media/files/RobotinoProgram/RadioControl/CMakeFiles/edit_cache.dir

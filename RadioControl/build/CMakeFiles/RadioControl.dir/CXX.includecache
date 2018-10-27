@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/files/RobotinoProgram/RadioControl/include/RadioControl.h
+ctime
+-
+iostream
+-
+stdio.h
+-
+rec/robotino/api2/Com.h
+-
+rec/robotino/api2/Bumper.h
+-
+rec/robotino/api2/OmniDrive.h
+-
+rec/robotino/api2/DistanceSensorArray.h
+-
+../src/SerialControl/SERIALRead.h
+/media/files/RobotinoProgram/RadioControl/src/SerialControl/SERIALRead.h
+
+/media/files/RobotinoProgram/RadioControl/src/RadioControl.cpp
+../include/RadioControl.h
+/media/files/RobotinoProgram/RadioControl/include/RadioControl.h
+
+/media/files/RobotinoProgram/RadioControl/src/SerialControl/SERIALRead.cpp
+SERIALRead.h
+/media/files/RobotinoProgram/RadioControl/src/SerialControl/SERIALRead.h
+
+/media/files/RobotinoProgram/RadioControl/src/SerialControl/SERIALRead.h
+string.h
+-
+boost/asio.hpp
+-
+boost/asio/read.hpp
+-
+iostream
+-
+vector
+-
+

@@ -1,12 +1,14 @@
 #include "../include/RadioControl.h"
 
 
+
 #define SOME_TIME 0.05
 
     Com com;
     MyDistanceSensorArray dist_sens;
     Bumper bumper;
     OmniDrive omni;
+
 
 void MovingTowards(double x_vel, double y_vel, double angle_vel, double time = 5){
     clock_t start_time = std::clock();
@@ -20,14 +22,15 @@ void MovingTowards(double x_vel, double y_vel, double angle_vel, double time = 5
 
 
 int main(int argc, char **argv){
-
-    double k = 0.1;
+    std::setlocale(LC_ALL, "C");
+    SERIALReader reader(argv[1],9600);
+    float kp = 0.1;
     /*connect to robot with IP which was specified as program's command line
     argument or to 192.168.2.100 if no argument was provided*/
     //setting IP
     if(argc > 1){
-         com.setAddress(argv[1]);
-         std::cout << "Trying to connect to " << argv[1] << "..." << std::endl;
+         com.setAddress(argv[2]);
+         std::cout << "Trying to connect to " << argv[2] << "..." << std::endl;
     }
     else{
         com.setAddress("192.168.2.100");
@@ -48,7 +51,15 @@ int main(int argc, char **argv){
     bumper.setComId(com.id());
     dist_sens.setComId(com.id());
     double forw, turn, ang;
-    while(true){MovingTowards(/*add value from radio function*/);}
+    while(true){
+      vector<float> speeds=reader.getSignalForInterval(1000, 1800);
+      kp=abs(speeds[3]);
+      for(int i=0;i<4;i++){
+        cout<<speeds[i]<<" ";
+        cout<<" "<<endl;
+      }
+      MovingTowards(speeds[0]*kp,speeds[1]*kp,speeds[2]*kp);
+    }
     com.disconnectFromServer();
     return 0;
 }

@@ -1,14 +1,14 @@
 Detecting C compiler ABI info failed to compile with the following output:
 Change Dir: /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07dd6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07dd6.dir/build.make CMakeFiles/cmTC_07dd6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0b8ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b8ac.dir/build.make CMakeFiles/cmTC_0b8ac.dir/build
 make[1]: Entering directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_07dd6.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_07dd6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_07dd6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07dd6.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_07dd6.dir/CMakeCCompilerABI.c.o  -o cmTC_07dd6 
+Building C object CMakeFiles/cmTC_0b8ac.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0b8ac.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0b8ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b8ac.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_0b8ac.dir/CMakeCCompilerABI.c.o  -o cmTC_0b8ac 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -20,13 +20,13 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_07dd6' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccj9kcHt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_07dd6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_07dd6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_07dd6' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b8ac' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUE99li.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0b8ac /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_0b8ac.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b8ac' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
 
 Cannot copy output executable
-  '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp/cmTC_07dd6'
+  '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp/cmTC_0b8ac'
 to destination specified by COPY_FILE:
   '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin'
 
@@ -34,18 +34,18 @@ to destination specified by COPY_FILE:
 Detecting C [-std=c11] compiler features failed to compile with the following output:
 Change Dir: /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3a1a0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3a1a0.dir/build.make CMakeFiles/cmTC_3a1a0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f215b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f215b.dir/build.make CMakeFiles/cmTC_f215b.dir/build
 make[1]: Entering directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a1a0.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3a1a0.dir/feature_tests.c.o   -c /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3a1a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a1a0.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3a1a0.dir/feature_tests.c.o  -o cmTC_3a1a0 
+Building C object CMakeFiles/cmTC_f215b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_f215b.dir/feature_tests.c.o   -c /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f215b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f215b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f215b.dir/feature_tests.c.o  -o cmTC_f215b 
 make[1]: Leaving directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
 
 Cannot copy output executable
-  '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp/cmTC_3a1a0'
+  '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp/cmTC_f215b'
 to destination specified by COPY_FILE:
   '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/feature_tests.bin'
 
@@ -53,14 +53,14 @@ to destination specified by COPY_FILE:
 Detecting CXX compiler ABI info failed to compile with the following output:
 Change Dir: /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b945b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b945b.dir/build.make CMakeFiles/cmTC_b945b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_102bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_102bc.dir/build.make CMakeFiles/cmTC_102bc.dir/build
 make[1]: Entering directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b945b.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_b945b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b945b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b945b.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b945b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b945b 
+Building CXX object CMakeFiles/cmTC_102bc.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_102bc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_102bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_102bc.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_102bc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_102bc 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -72,13 +72,13 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b945b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXnfZ3T.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b945b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b945b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b945b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_102bc' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbx4AyM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_102bc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_102bc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_102bc' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
 
 Cannot copy output executable
-  '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp/cmTC_b945b'
+  '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp/cmTC_102bc'
 to destination specified by COPY_FILE:
   '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin'
 
@@ -86,18 +86,18 @@ to destination specified by COPY_FILE:
 Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
 Change Dir: /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_01e49/fast"
-/usr/bin/make -f CMakeFiles/cmTC_01e49.dir/build.make CMakeFiles/cmTC_01e49.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_22aa2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22aa2.dir/build.make CMakeFiles/cmTC_22aa2.dir/build
 make[1]: Entering directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_01e49.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_01e49.dir/feature_tests.cxx.o -c /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_01e49
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01e49.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_01e49.dir/feature_tests.cxx.o  -o cmTC_01e49 
+Building CXX object CMakeFiles/cmTC_22aa2.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_22aa2.dir/feature_tests.cxx.o -c /media/files/RobotinoProgram/RadioControl/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_22aa2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22aa2.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_22aa2.dir/feature_tests.cxx.o  -o cmTC_22aa2 
 make[1]: Leaving directory '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp'
 
 Cannot copy output executable
-  '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp/cmTC_01e49'
+  '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/CMakeTmp/cmTC_22aa2'
 to destination specified by COPY_FILE:
   '/media/files/RobotinoProgram/RadioControl/build/CMakeFiles/feature_tests.bin'
 

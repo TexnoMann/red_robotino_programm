@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/RadioControl.dir/src/SerialControl/SERIALRead.cpp.o CMakeFiles/RadioControl.dir/src/RadioControl.cpp.o  -o RadioControl -Wl,-rpath,/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libboost_system.so -lrec_robotino_api2 
